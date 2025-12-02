@@ -1,4 +1,4 @@
-**🔐 Secure Authentication & OTP Verification with FastAPI**
+## **🔐 Secure Authentication & OTP Verification with FastAPI**
 
 A complete authentication system built with FastAPI, featuring JWT-based login, OAuth2 security, password hashing, email-based OTP verification, and SQLite database integration. This project ensures robust user identity protection and secure token-based access.
 
@@ -43,5 +43,6 @@ OTP length: 6 digits
 Expiry: 5 minutes
 
 Stored securely in DB until verification
+
 
 
