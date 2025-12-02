@@ -1,0 +1,40 @@
+# ---------- Python ----------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.db
+*.sqlite3
+
+# ---------- Virtual Environment ----------
+venv/
+ENV/
+env/
+
+# ---------- Environment Variables ----------
+.env
+*.env
+
+# ---------- IDE / Editor ----------
+.vscode/
+.idea/
+*.swp
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- Byte-compiled / Cache ----------
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# ---------- OS Specific ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Build / Distribution ----------
+build/
+dist/
+*.egg-info/

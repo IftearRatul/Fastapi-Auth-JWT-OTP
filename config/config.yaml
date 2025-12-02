@@ -1,0 +1,17 @@
+jwt:
+secret: "your_jwt_secret_change_this"
+algorithm: "HS256"
+access_token_expire_minutes: 60
+
+
+otp:
+length: 6
+expire_minutes: 5
+
+
+email:
+smtp_host: "smtp.example.com"
+smtp_port: 587
+smtp_user: "ratulhossain1815@gmail.com"
+smtp_password: "egkk itcb ekqi mtfc"
+email_from: "ratulhossain1815@gmail.com"
