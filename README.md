@@ -22,7 +22,7 @@ A complete authentication system built with FastAPI, featuring JWT-based login, 
 🏗️ Modular folder structure for scalability
 
 
-## 🔧 Tech Stack
+**🔧 Tech Stack**
 
 | Component          | Library                     |
 |-------------------|-----------------------------|
@@ -43,6 +43,7 @@ OTP length: 6 digits
 Expiry: 5 minutes
 
 Stored securely in DB until verification
+
 
 
 
