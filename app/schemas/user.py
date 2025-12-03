@@ -16,7 +16,7 @@ class UserOut(UserBase):
     is_superuser: bool
     is_verified: bool
 
-    model_config = {"from_attributes": True}  # pydantic v2: use from_attributes
+    model_config = {"from_attributes": True}   
 
 class Token(BaseModel):
     access_token: str
@@ -32,3 +32,7 @@ class OTPVerify(BaseModel):
 
 class ResendOTP(BaseModel):
     email: EmailStr
+
+class UserLogin(BaseModel):
+    email: EmailStr
+    password: str = Field(..., max_length=72)
